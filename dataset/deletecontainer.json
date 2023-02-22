@@ -1,0 +1,18 @@
+{
+	"name": "deletecontainer",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "demoinput",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "input"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,120 @@
+{
+	"name": "SnowflakeTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Snowflaketrial",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SnowflakeTable",
+		"schema": [
+			{
+				"name": "ID",
+				"type": "NUMBER",
+				"precision": 38,
+				"scale": 0
+			},
+			{
+				"name": "CITY",
+				"type": "VARCHAR",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "DATE",
+				"type": "DATE",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "PLAYER_OF_MATCH",
+				"type": "VARCHAR",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "VENUE",
+				"type": "VARCHAR",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "NEUTRAL_VENUE",
+				"type": "NUMBER",
+				"precision": 38,
+				"scale": 0
+			},
+			{
+				"name": "TEAM1",
+				"type": "VARCHAR",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "TEAM2",
+				"type": "VARCHAR",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "TOSS_WINNER",
+				"type": "VARCHAR",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "TOSS_DECISION",
+				"type": "VARCHAR",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "WINNER",
+				"type": "VARCHAR",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "RESULT",
+				"type": "VARCHAR",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "RESULT_MARGIN",
+				"type": "VARCHAR",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "ELIMINATOR",
+				"type": "VARCHAR",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "METHOD",
+				"type": "VARCHAR",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "UMPIRE1",
+				"type": "VARCHAR",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "UMPIRE2",
+				"type": "VARCHAR",
+				"precision": 0,
+				"scale": 0
+			}
+		],
+		"typeProperties": {
+			"schema": "IPL_SCHEMA",
+			"table": "DEMO_IPL_TABLE"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
